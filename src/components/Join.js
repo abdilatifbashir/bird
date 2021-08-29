@@ -49,6 +49,15 @@ export default function Join() {
     e.preventDefault();
     setLoginValues({ ...loginCredentials, [e.target.name]: e.target.value });
   };
+  const submit = () => {
+if(loginCredentials.password!=loginCredentials.confirmPassword) {
+  alert("enter the correct password")
+
+}
+else{
+  setLogin(false)
+}
+  }
   console.log("logins", loginCredentials);
   return login == false ? (
     <div className="container-1">
@@ -150,7 +159,7 @@ export default function Join() {
           </div>
           <div>
             <button
-              onClick={() => setLogin(false)}
+              onClick={submit}
               style={{
                 marginLeft: "200px",
                 marginTop: "30px",
