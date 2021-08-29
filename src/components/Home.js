@@ -8,14 +8,11 @@ export default function Home() {
 
     const btnStyle={
         display:"block",
-        // paddingLeft:"10px",
-        //  paddingRight:"5px",
-        //  paddingTop:"5px",
+        
          paddingBottom:"5px",
-        // textAlign:"center"
+        
         border:"3px solid black",
         width:"300px",
-        // marginLeft:"20px"
           bordeSspacing: "15px",
           textAlign:"center"
 
@@ -26,16 +23,13 @@ export default function Home() {
         marginLeft:"20px"
     }
     const footStyle = {
-        // backgroundColor:"red",
+        
           background: "linear-gradient(to bottom left, white 50%, black 50%)",
-        // borderTop: "150px solid #4b42f5",
-        // borderRight: "150px solid #4b42f5",
-        // borderTop:"%",
-        // borderTop: "330px solid white",
+        
         height:"688px"
     }
     const linkStyle = {
-        // TextDecoration:"none"
+        
          textDecoration: "none",
 
     }
